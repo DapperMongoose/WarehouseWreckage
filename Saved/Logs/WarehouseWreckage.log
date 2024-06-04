@@ -4052,3 +4052,296 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.04-01.50.43:334][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.06.04-01.50.43:337][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2024.06.04-01.50.43:494][856]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.06.04-01.51.00:713][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.06.04-01.51.00:724][ 50]LogStall: Shutdown...
+[2024.06.04-01.51.00:727][ 50]LogStall: Shutdown complete.
+[2024.06.04-01.51.00:744][ 50]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.00:744][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.51.00:767][ 50]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.00:767][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.51.00:803][ 50]LogSlate: Window 'WarehouseWreckage - Unreal Editor' being destroyed
+[2024.06.04-01.51.00:899][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.06.04-01.51.00:917][ 50]Cmd: QUIT_EDITOR
+[2024.06.04-01.51.00:917][ 50]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.06.04-01.51.00:918][ 51]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.06.04-01.51.00:918][ 51]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.06.04-01.51.00:918][ 51]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.06.04-01.51.00:919][ 51]LogWorld: UWorld::CleanupWorld for Minimal_Default_Edited, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.00:919][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.51.00:919][ 51]LogWorldMetrics: [Deinitialize]
+[2024.06.04-01.51.00:919][ 51]LogWorldMetrics: [Clear]
+[2024.06.04-01.51.00:921][ 51]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.06.04-01.51.00:983][ 51]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.06.04-01.51.00:989][ 51]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={4EBEACAA-9FCE-43B9-886F-6FB47B26A7DC}
+[2024.06.04-01.51.00:994][ 51]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.06.04-01.51.00:994][ 51]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.06.04-01.51.00:994][ 51]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.06.04-01.51.00:994][ 51]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerSDL)...
+[2024.06.04-01.51.00:994][ 51]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.06.04-01.51.00:994][ 51]LogAudio: Display: Audio Device unregistered from world 'Minimal_Default_Edited'.
+[2024.06.04-01.51.00:994][ 51]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.06.04-01.51.01:042][ 51]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.06.04-01.51.01:042][ 51]LogAudio: Display: Audio Device Manager Shutdown
+[2024.06.04-01.51.01:044][ 51]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.04-01.51.01:044][ 51]LogExit: Preparing to exit.
+[2024.06.04-01.51.01:068][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.06.04-01.51.01:072][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:072][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.01:073][ 51]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-01.51.02:083][ 51]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:085][ 51]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:087][ 51]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:089][ 51]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:091][ 51]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:092][ 51]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:094][ 51]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.51.02:211][ 51]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.06.04-01.51.02:221][ 51]LogExit: Editor shut down
+[2024.06.04-01.51.02:221][ 51]LogExit: Transaction tracking system shut down
+[2024.06.04-01.51.02:334][ 51]LogExit: Object subsystem successfully closed.
+[2024.06.04-01.51.02:373][ 51]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.06.04-01.51.02:710][ 51]MemoryProfiler: Shutdown
+[2024.06.04-01.51.02:710][ 51]NetworkingProfiler: Shutdown
+[2024.06.04-01.51.02:710][ 51]LoadingProfiler: Shutdown
+[2024.06.04-01.51.02:710][ 51]TimingProfiler: Shutdown
+[2024.06.04-01.51.03:198][ 51]RenderDocPlugin: plugin has been unloaded.
+[2024.06.04-01.51.03:199][ 51]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.06.04-01.51.03:200][ 51]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4EBEACAA-9FCE-43B9-886F-6FB47B26A7DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.1-33305029%2B%2B%2BUE5%2BRelease-5.4&UserID=c068836dc6ae45938c80f55f3f005f03-000003e8%7C%7Cc068836dc6ae45938c80f55f3f005f03&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.06.04-01.51.03:201][ 51]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.06.04-01.51.03:203][ 51]LogPakFile: Destroying PakPlatformFile
+[2024.06.04-01.51.03:318][ 51]LogVulkanRHI: Warning: FVulkanSubresourceAllocator 0x9cd1edef700 has unfreed Image resources 
+0x00007354d6baf83a libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+0x00007354507aad2f libUnrealEditor-VulkanRHI.so!VulkanRHI::FVulkanSubresourceAllocator::FVulkanSubresourceAllocator(VulkanRHI::EVulkanAllocationType, VulkanRHI::FMemoryManager*, unsigned char, VulkanRHI::FDeviceMemoryAllocation*, unsigned int, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:2578]
+0x00007354507a78c1 libUnrealEditor-VulkanRHI.so!VulkanRHI::FVulkanResourceHeap::AllocateResource(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VulkanRHI::EType, unsigned int, unsigned int, bool, bool, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:2009]
+0x00007354507ac59a libUnrealEditor-VulkanRHI.so!VulkanRHI::FMemoryManager::AllocateImageMemory(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VkMemoryRequirements const&, unsigned int, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:2953]
+0x00007354507ad788 libUnrealEditor-VulkanRHI.so!VulkanRHI::FMemoryManager::AllocateDedicatedImageMemory(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VkImage_T*, VkMemoryRequirements const&, unsigned int, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:3135]
+0x000073545086381a libUnrealEditor-VulkanRHI.so!FVulkanTexture::FVulkanTexture(FRHICommandListBase*, FVulkanDevice&, FRHITextureCreateDesc const&, FRHITransientHeapAllocation const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1607]
+0x0000735450860277 libUnrealEditor-VulkanRHI.so!FVulkanDynamicRHI::RHICreateTexture(FRHICommandListBase&, FRHITextureCreateDesc const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1018]
+0x00007354cf166d26 libUnrealEditor-RenderCore.so!FRenderTargetPool::FindFreeElement(FRHICommandListBase&, FRHITextureDesc, char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/RenderCore/Private/RenderTargetPool.cpp:124]
+0x00007354cf0a48b2 libUnrealEditor-RenderCore.so!FRDGBuilder::AllocatePooledTextures(FRHICommandListBase&, TArrayView<FRDGBuilder::FCollectResourceOp const, int>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/RenderCore/Private/RenderGraphBuilder.cpp:2722]
+0x00007354cf0e5c58 libUnrealEditor-RenderCore.so!UE::Tasks::Private::FTaskHandle FRDGBuilder::AddCommandListSetupTask<FRDGBuilder::Execute()::$_10, TArray<UE::Tasks::Private::FTaskHandle, TSizedDefaultAllocator<32> > >(FRDGBuilder::Execute()::$_10&&, UE::Tasks::FPipe*, TArray<UE::Tasks::Private::FTaskHandle, TSizedDefaultAllocator<32> >&&, LowLevelTasks::ETaskPriority, bool)::'lambda'()::operator()() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/RenderCore/Public/RenderGraphBuilder.inl:644]
+
+
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Warning:  ** LEAK 000 [045e0000-008a0008] 9043976  ImageRT 
+
+0x00007354d6baf83a libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+0x00007354507a7338 libUnrealEditor-VulkanRHI.so!VulkanRHI::FVulkanSubresourceAllocator::TryAllocate2(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, unsigned int, unsigned int, VulkanRHI::EVulkanAllocationMetaType, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:3968]
+0x00007354507a772a libUnrealEditor-VulkanRHI.so!VulkanRHI::FVulkanResourceHeap::AllocateResource(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VulkanRHI::EType, unsigned int, unsigned int, bool, bool, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:1967]
+0x00007354507ac59a libUnrealEditor-VulkanRHI.so!VulkanRHI::FMemoryManager::AllocateImageMemory(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VkMemoryRequirements const&, unsigned int, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:2953]
+0x00007354507ad788 libUnrealEditor-VulkanRHI.so!VulkanRHI::FMemoryManager::AllocateDedicatedImageMemory(VulkanRHI::FVulkanAllocation&, FVulkanEvictable*, VkImage_T*, VkMemoryRequirements const&, unsigned int, VulkanRHI::EVulkanAllocationMetaType, bool, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanMemory.cpp:3135]
+0x000073545086381a libUnrealEditor-VulkanRHI.so!FVulkanTexture::FVulkanTexture(FRHICommandListBase*, FVulkanDevice&, FRHITextureCreateDesc const&, FRHITransientHeapAllocation const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1607]
+0x0000735450860277 libUnrealEditor-VulkanRHI.so!FVulkanDynamicRHI::RHICreateTexture(FRHICommandListBase&, FRHITextureCreateDesc const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1018]
+0x00007354cf166d26 libUnrealEditor-RenderCore.so!FRenderTargetPool::FindFreeElement(FRHICommandListBase&, FRHITextureDesc, char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/RenderCore/Private/RenderTargetPool.cpp:124]
+0x00007354cf0a48b2 libUnrealEditor-RenderCore.so!FRDGBuilder::AllocatePooledTextures(FRHICommandListBase&, TArrayView<FRDGBuilder::FCollectResourceOp const, int>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/RenderCore/Private/RenderGraphBuilder.cpp:2722]
+0x00007354cf0e5c58 libUnrealEditor-RenderCore.so!UE::Tasks::Private::FTaskHandle FRDGBuilder::AddCommandListSetupTask<FRDGBuilder::Execute()::$_10, TArray<UE::Tasks::Private::FTaskHandle, TSizedDefaultAllocator<32> > >(FRDGBuilder::Execute()::$_10&&, UE::Tasks::FPipe*, TArray<UE::Tasks::Private::FTaskHandle, TSizedDefaultAllocator<32> >&&, LowLevelTasks::ETaskPriority, bool)::'lambda'()::operator()() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/RenderCore/Public/RenderGraphBuilder.inl:644]
+
+
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: /******************************************* Device Memory ********************************************\
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Max memory allocations 4294967295.
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 3 Device Memory Heaps:
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   0: Flags 0x1 - Size 16911433728 (16128.00 MB) - Used 231838144 (1.37%) - DeviceLocal - PrimaryHeap
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   1: Flags 0x0 - Size 33656930304 (32097.75 MB) - Used 1048576 (0.00%)
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   2: Flags 0x1 - Size 268435456 (256.00 MB) - Used 0 (0.00%) - DeviceLocal
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 11 Device Memory Types (Not unified):
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   0: Flags 0x00001 - Heap  0 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   1: Flags 0x00001 - Heap  0 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   7: Flags 0x000c1 - Heap  0 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   2: Flags 0x00006 - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   5: Flags 0x0000e - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   6: Flags 0x0000e - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   8: Flags 0x000c6 - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:  10: Flags 0x000ce - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   3: Flags 0x00007 - Heap  2 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   4: Flags 0x00007 - Heap  2 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display:   9: Flags 0x000c7 - Heap  2 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Memory Budget Extension:
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	         | Usage                     | Budget          | Size            |
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	---------|------------------------------------------------------------------|
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	 HEAP 00 |  38.27% /       6171.73 MB |      14744.49 MB |      16128.00 MB |
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	 HEAP 01 |   0.54% /        171.85 MB |      31859.74 MB |      32097.75 MB |
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	 HEAP 02 |   9.57% /         24.50 MB |         73.58 MB |        256.00 MB |
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	---------|------------------------------------------------------------------|
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Device Memory: 31 allocations on 3 heaps
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	Heap 0, 30 allocations
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Alloc AllocSize(MB) TotalSize(MB)    Handle
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    0         1.000         0.000 0x73549c659610
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    1         1.000         1.000 0x3b9e3770
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    2         1.000         2.000 0x3be1e170
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    3         1.000         3.000 0x735314154730
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    4         1.000         4.000 0x3be1eb10
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    5         1.000         5.000 0x3bb8a000
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    6         2.098         6.000 0x3b054600
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    7         1.000         8.098 0x3beb4590
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    8         1.000         9.098 0x3ba92a20
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    9         1.000        10.098 0x3bee11e0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   10         1.000        11.098 0x3bee2890
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   11        10.000        12.098 0x3b1d65e0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   12        10.000        22.098 0x735314299e50
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   13         1.000        32.098 0x7354a015ff70
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   14         1.000        33.098 0x735314026f00
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   15        10.000        34.098 0x73531429aa80
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   16         1.000        44.098 0x735314028f10
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   17         1.000        45.098 0x73549c0f4990
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   18        10.000        46.098 0x3b217760
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   19         1.000        56.098 0x3ba7bdf0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   20         1.000        57.098 0x735314081ed0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   21        10.000        58.098 0x735314081b30
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   22         1.000        68.098 0x7354a0003170
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   23       128.000        69.098 0x73540028d5a0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   24        10.000       197.098 0x7353141bdb10
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   25         1.000       207.098 0x7354a0003b90
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   26        10.000       208.098 0x7353141bdba0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   27         1.000       218.098 0x7354a00033a0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   28         1.000       219.098 0x735314149f70
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		   29         1.000       220.098 0x7354a0297540
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Total Allocated 221.10 MB, Peak 8407.66 MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	Heap 1, 1 allocations
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Alloc AllocSize(MB) TotalSize(MB)    Handle
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		    0         1.000         0.000 0x3b966b70
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Total Allocated 1.00 MB, Peak 223.68 MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 	Heap 2, 0 allocations
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Total Allocated 0.00 MB, Peak 0.00 MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Blocks Kept alive Current Frame (-1) 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Free Blocks in Allocations:
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd52070ac0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd38960fc0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd52070780/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd431d3400/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd111542e0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd52074dc0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd8754d340/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd11013440/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd38960900/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd37783280/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd1101a0c0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd11013a80/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd38960d00/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd4dcefa00/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd38960980/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd511b6240/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd52072100/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cdad316540/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cdad311600/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd11012740/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      1048576 : 0x9cd511b4e80/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 02      1048576 : 0x9cd389610c0/Frame -0001 :: Size   1.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00      2200000 : 0x9cd417d7600/Frame -0001 :: Size   2.10MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00    134217728 : 0x9cd1eff3040/Frame -0001 :: Size 128.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd527d5180/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd5271d840/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd525b9180/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd95243ac0/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd522a7100/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd522ad680/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 00     10485760 : 0x9cd522a0540/Frame -0001 :: Size  10.00MB
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: /******************************************* FMemoryManager ********************************************\
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: HEAP DUMP
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 0, Memory Type Index 0
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 1, Memory Type Index 1
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 2, Memory Type Index 2
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 3, Memory Type Index 3
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 4, Memory Type Index 4
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 5, Memory Type Index 5
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 6, Memory Type Index 6
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 7, Memory Type Index 7
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 8, Memory Type Index 8
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 9, Memory Type Index 9
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ResourceHeap 10, Memory Type Index 10
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: BUFFER DUMP
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 128 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 256 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 512 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 1024 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 2048 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 8192 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of 0 size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Buffer of large size Allocations: 0 Used / 0 Free
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: ::Totals::
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Large Alloc Used/Max 0/0 0.00%
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: Binned Alloc Used/Max 0/0 0.00%
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: SUMMARY
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Device Heaps                       |    Memory       Reserved      FreeMem       TotalMem   |  Allocs     -         |  Allocs              | Flags | Type   
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Device Heap 0                      |  221.10mb /   221.10mb /    15685.80mb /    16128.00mb |         30         30 |     60      0      0 | 000c1 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Device Heap 1                      |    1.00mb /     1.00mb /    32095.75mb /    32097.75mb |          1          1 |      2      0      0 | 000ce | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Device Heap 2                      |    0.00mb /     0.00mb /      256.00mb /      256.00mb |          0          0 |      0      0      0 | 000c7 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Allocators                         |    BufMem       ImgMem        FreeMem       TotalMem   |  BufAllocs  ImgAllocs |  Pages BufPgs ImgPgs | Flags | Type   
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 0                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00001 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 1                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00001 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 2                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00006 | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 3                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00007 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 4                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00007 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 5                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 0000e | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 6                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 0000e | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 7                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000c1 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 8                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000c6 | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 9                     |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000c7 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		ResourceHeap 10                    |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000ce | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 128                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 256                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 512                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 1024                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 2048                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 8192                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 0                             |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool -1                            |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 128                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 256                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 512                           |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 1024                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 2048                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 8192                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool 0                             |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Pool -1                            |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Dedicated Pages                    |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		TotalHost                          |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000ce | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		TotalLocal                         |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 000c7 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Total                              |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Allocated Device Heap 0            |    0.00mb /     0.00mb /    16128.00mb /    16128.00mb |          0          0 |      0      0      0 | 000c1 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Allocated Device Heap 1            |    0.00mb /     0.00mb /    32097.75mb /    32097.75mb |          0          0 |      0      0      0 | 000ce | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Allocated Device Heap 2            |    0.00mb /     0.00mb /      256.00mb /      256.00mb |          0          0 |      0      0      0 | 000c7 | VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD|VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Subsystems                         |    BufMem       ImgMem        FreeMem       TotalMem   |  BufAllocs  ImgAllocs |  Pages BufPgs ImgPgs | Flags | Type   
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		Staging                            |    0.00mb /     0.00mb /        0.00mb /        0.00mb |          0          0 |      0      0      0 | 00000 | 
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		---------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 
+
+SubAllocator Dump
+
+
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		                                               | Free    Count | Fill /       Used /       Free /      Total /    Largest |    Unknown /        UBO /   MultiBuf /  FrameTemp |    ImageRT /      Image |  BufferUAV /  BufferStg /    BufOthr |
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:319][ 51]LogVulkanRHI: Display: 		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[2024.06.04-01.51.03:344][ 51]LogExit: Exiting.
+[2024.06.04-01.51.03:344][ 51]LogInit: Tearing down SDL.
+[2024.06.04-01.51.03:365][ 51]Log file closed, 06/03/24 20:51:03
