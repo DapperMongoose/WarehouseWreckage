@@ -3058,3 +3058,214 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.04-01.18.00:709][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.06.04-01.18.00:712][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2024.06.04-01.18.00:885][548]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: ================================================
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Total job queries 745, among them cache hits 130 (17.45%), DDC hits 142 (19.06%), Duplicates 45 (6.04%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Tracking 570 distinct input hashes that result in 442 distinct outputs (77.54%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: RAM used: 3.75 MiB of 3.15 GiB budget. Usage: 0.12%
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Shaders Compiled: 428
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Jobs assigned 428, completed 428 (100%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Average time worker was idle: 72.68 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Time job spent in pending queue: average 4.20 s, longest 18.10 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Job execution time: average 1.23 s, max 8.15 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Job life time (pending + execution): average 5.44 s, max 20.13
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Shader code size: average 18.44 KiB, min 846 B, max 87.712 KiB
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 49.17 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.76%
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Jobs were issued in 391 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Average processing rate: 8.70 jobs/sec
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Total thread time: 331.509 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Total thread preprocess time: 16.821 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Percentage time preprocessing: 5.07%
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Effective parallelization: 6.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 1.86 sec, max 3.00 sec, min 0.67 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 1.83 sec, max 2.99 sec, min 0.76 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 1.78 sec, max 2.85 sec, min 0.87 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    2 times, average 1.77 sec, max 1.79 sec, min 1.74 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 1.76 sec, max 2.88 sec, min 0.75 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ - 12.34% of total time (compiled   46 times, average 0.89 sec, max 2.73 sec, min 0.65 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 11.85% of total time (compiled   43 times, average 0.91 sec, max 2.82 sec, min 0.65 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.38% of total time (compiled   58 times, average 0.59 sec, max 2.88 sec, min 0.43 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.38% of total time (compiled   62 times, average 0.50 sec, max 0.75 sec, min 0.31 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.78% of total time (compiled   41 times, average 0.55 sec, max 0.77 sec, min 0.33 sec)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: === Material stats ===
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Materials Translated:    181
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Material Total Translate Time: 0.35 s
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Material Translation Only: 0.04 s (13%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: Material Cache Hits: 51 (28%)
+[2024.06.04-01.19.37:117][794]LogShaderCompilers: Display: ================================================
+[2024.06.04-01.19.59:476][598]Cmd: DELETE
+[2024.06.04-01.19.59:476][598]Cmd: ACTOR DELETE
+[2024.06.04-01.19.59:478][598]LogEditorActor: Deleted Actor: BP_Projectile_C
+[2024.06.04-01.19.59:491][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.06.04-01.19.59:499][598]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.06.04-01.20.01:929][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-01.20.02:003][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_Edited" FILE="../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-01.20.02:025][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.06.04-01.20.02:037][745]LogSavePackage: Moving output files for package: /Game/Maps/Minimal_Default_Edited
+[2024.06.04-01.20.02:037][745]LogSavePackage: Moving '../../../../Code/gamedevtv/WarehouseWreckage/Saved/Minimal_Default_Edited1EC04E350AF34353A4CC08786128AC8E.tmp' to '../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap'
+[2024.06.04-01.20.02:040][745]LogFileHelpers: Saving map 'Minimal_Default_Edited' took 0.038
+[2024.06.04-01.20.02:064][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.060 ms (total: 2.80 sec)
+[2024.06.04-01.20.02:124][745]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.04-01.20.02:124][745]LogContentValidation: Enabled validators:
+[2024.06.04-01.20.02:124][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.04-01.20.02:124][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.04-01.20.02:124][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.04-01.20.02:124][745]LogContentValidation: Display: Validating asset /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited
+[2024.06.04-01.20.02:124][745]AssetCheck: /Game/Maps/Minimal_Default_Edited Validating asset
+[2024.06.04-01.20.49:955][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.06.04-01.20.49:962][444]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-01.20.50:019][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_Edited" FILE="../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-01.20.50:043][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.06.04-01.20.50:054][444]LogSavePackage: Moving output files for package: /Game/Maps/Minimal_Default_Edited
+[2024.06.04-01.20.50:054][444]LogSavePackage: Moving '../../../../Code/gamedevtv/WarehouseWreckage/Saved/Minimal_Default_Edited67C083129E7E42FE8BFC64ACEC9C8F9D.tmp' to '../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap'
+[2024.06.04-01.20.50:056][444]LogFileHelpers: Saving map 'Minimal_Default_Edited' took 0.038
+[2024.06.04-01.20.50:075][444]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.677 ms (total: 2.91 sec)
+[2024.06.04-01.20.50:136][444]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.04-01.20.50:136][444]LogContentValidation: Enabled validators:
+[2024.06.04-01.20.50:136][444]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.04-01.20.50:136][444]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.04-01.20.50:136][444]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.04-01.20.50:136][444]LogContentValidation: Display: Validating asset /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited
+[2024.06.04-01.20.50:136][444]AssetCheck: /Game/Maps/Minimal_Default_Edited Validating asset
+[2024.06.04-01.21.57:339][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-01.21.57:413][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_Edited" FILE="../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-01.21.57:436][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.06.04-01.21.57:450][391]LogSavePackage: Moving output files for package: /Game/Maps/Minimal_Default_Edited
+[2024.06.04-01.21.57:450][391]LogSavePackage: Moving '../../../../Code/gamedevtv/WarehouseWreckage/Saved/Minimal_Default_EditedB7863FB94FDE4D92A645D14464E04CD5.tmp' to '../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap'
+[2024.06.04-01.21.57:452][391]LogFileHelpers: Saving map 'Minimal_Default_Edited' took 0.040
+[2024.06.04-01.21.57:469][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.303 ms (total: 3.04 sec)
+[2024.06.04-01.21.57:530][391]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.04-01.21.57:530][391]LogContentValidation: Enabled validators:
+[2024.06.04-01.21.57:530][391]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.04-01.21.57:530][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.04-01.21.57:530][391]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.04-01.21.57:530][391]LogContentValidation: Display: Validating asset /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited
+[2024.06.04-01.21.57:530][391]AssetCheck: /Game/Maps/Minimal_Default_Edited Validating asset
+[2024.06.04-01.22.00:626][541]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-01.22.00:652][541]LogPlayLevel: [PlayLevel] Compiling Minimal_Default_Edited before play...
+[2024.06.04-01.22.00:683][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.06.04-01.22.00:686][541]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2024.06.04-01.22.00:721][541]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Minimal_Default_Edited
+[2024.06.04-01.22.00:724][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002457s)
+[2024.06.04-01.22.00:724][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited to /Game/Maps/UEDPIE_0_Minimal_Default_Edited.Minimal_Default_Edited (0.002491s)
+[2024.06.04-01.22.00:739][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.06.04-01.22.00:740][541]LogWorldMetrics: [Initialize]
+[2024.06.04-01.22.00:741][541]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2024.06.04-01.22.00:841][541]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-01.22.00:841][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-01.22.00:841][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-01.22.00:841][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-01.22.00:841][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-01.22.00:841][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-01.22.00:841][541]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.06.04-01.22.00:842][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.06.04-01.22.01:109][541]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Using Audio Hardware Device Starship/Matisse HD Audio Controller Analog Stereo (2)
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=22
+[2024.06.04-01.22.01:121][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.06.04-01.22.01:121][541]LogInit: FAudioDevice initialized with ID 22.
+[2024.06.04-01.22.01:121][541]LogAudio: Display: Audio Device (ID: 22) registered with world 'Minimal_Default_Edited'.
+[2024.06.04-01.22.01:122][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.06.04-01.22.01:124][541]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-01.22.01:124][541]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default_Edited.Minimal_Default_Edited up for play (max tick rate 0) at 2024.06.03-20.22.01
+[2024.06.04-01.22.01:125][541]LogWorld: Bringing up level for play took: 0.001005
+[2024.06.04-01.22.01:125][541]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.06.04-01.22.01:126][541]LogBlueprintUserMessages: [Minimal_Default_Edited_C_9] Welcome to Warehouse Wreckage!
+[2024.06.04-01.22.01:126][541]LogBlueprintUserMessages: [Minimal_Default_Edited_C_9] Another Message
+[2024.06.04-01.22.01:222][541]PIE: Server logged in
+[2024.06.04-01.22.01:223][541]PIE: Play in editor total start time 0.593 seconds.
+[2024.06.04-01.22.08:960][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-01.22.08:961][  3]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Minimal_Default_Edited
+[2024.06.04-01.22.08:961][  3]LogWorld: UWorld::CleanupWorld for Minimal_Default_Edited, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.22.08:961][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.22.08:961][  3]LogWorldMetrics: [Deinitialize]
+[2024.06.04-01.22.08:961][  3]LogWorldMetrics: [Clear]
+[2024.06.04-01.22.08:964][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-01.22.08:968][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.22.08:980][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-01.22.08:980][  3]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.06.04-01.22.09:027][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.06.04-01.22.09:163][  4]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.06.04-01.22.56:152][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-01.22.56:227][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_Edited" FILE="../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-01.22.56:252][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.06.04-01.22.56:265][752]LogSavePackage: Moving output files for package: /Game/Maps/Minimal_Default_Edited
+[2024.06.04-01.22.56:265][752]LogSavePackage: Moving '../../../../Code/gamedevtv/WarehouseWreckage/Saved/Minimal_Default_EditedEEEBA9E231664E46A7772AE48B9901E6.tmp' to '../../../../Code/gamedevtv/WarehouseWreckage/Content/Maps/Minimal_Default_Edited.umap'
+[2024.06.04-01.22.56:268][752]LogFileHelpers: Saving map 'Minimal_Default_Edited' took 0.041
+[2024.06.04-01.22.56:282][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.780 ms (total: 3.17 sec)
+[2024.06.04-01.22.56:343][752]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.04-01.22.56:343][752]LogContentValidation: Enabled validators:
+[2024.06.04-01.22.56:343][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.04-01.22.56:343][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.04-01.22.56:343][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.04-01.22.56:343][752]LogContentValidation: Display: Validating asset /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited
+[2024.06.04-01.22.56:343][752]AssetCheck: /Game/Maps/Minimal_Default_Edited Validating asset
+[2024.06.04-01.22.59:630][932]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-01.22.59:656][932]LogPlayLevel: [PlayLevel] Compiling Minimal_Default_Edited before play...
+[2024.06.04-01.22.59:689][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.04-01.22.59:692][932]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2024.06.04-01.22.59:692][932]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Minimal_Default_Edited
+[2024.06.04-01.22.59:695][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002396s)
+[2024.06.04-01.22.59:695][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default_Edited.Minimal_Default_Edited to /Game/Maps/UEDPIE_0_Minimal_Default_Edited.Minimal_Default_Edited (0.002426s)
+[2024.06.04-01.22.59:708][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.06.04-01.22.59:709][932]LogWorldMetrics: [Initialize]
+[2024.06.04-01.22.59:710][932]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2024.06.04-01.22.59:805][932]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-01.22.59:805][932]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-01.22.59:805][932]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-01.22.59:805][932]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-01.22.59:805][932]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-01.22.59:805][932]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.06.04-01.22.59:805][932]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.06.04-01.23.00:074][932]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.06.04-01.23.00:086][932]LogAudioMixer: Display: Using Audio Hardware Device Starship/Matisse HD Audio Controller Analog Stereo (2)
+[2024.06.04-01.23.00:087][932]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-01.23.00:087][932]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-01.23.00:087][932]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-01.23.00:088][932]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=23
+[2024.06.04-01.23.00:088][932]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.06.04-01.23.00:088][932]LogInit: FAudioDevice initialized with ID 23.
+[2024.06.04-01.23.00:088][932]LogAudio: Display: Audio Device (ID: 23) registered with world 'Minimal_Default_Edited'.
+[2024.06.04-01.23.00:088][932]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.06.04-01.23.00:091][932]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-01.23.00:092][932]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default_Edited.Minimal_Default_Edited up for play (max tick rate 0) at 2024.06.03-20.23.00
+[2024.06.04-01.23.00:092][932]LogWorld: Bringing up level for play took: 0.001171
+[2024.06.04-01.23.00:093][932]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.06.04-01.23.00:094][932]LogBlueprintUserMessages: [Minimal_Default_Edited_C_10] Welcome to Warehouse Wreckage!
+[2024.06.04-01.23.00:094][932]LogBlueprintUserMessages: [Minimal_Default_Edited_C_10] Another Message
+[2024.06.04-01.23.00:190][932]PIE: Server logged in
+[2024.06.04-01.23.00:190][932]PIE: Play in editor total start time 0.557 seconds.
+[2024.06.04-01.23.09:036][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-01.23.09:036][461]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Minimal_Default_Edited
+[2024.06.04-01.23.09:036][461]LogWorld: UWorld::CleanupWorld for Minimal_Default_Edited, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-01.23.09:036][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.23.09:036][461]LogWorldMetrics: [Deinitialize]
+[2024.06.04-01.23.09:036][461]LogWorldMetrics: [Clear]
+[2024.06.04-01.23.09:039][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-01.23.09:045][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-01.23.09:056][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-01.23.09:057][461]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.06.04-01.23.09:102][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.06.04-01.23.09:233][462]LogPlayLevel: Display: Destroying online subsystem :Context_33
