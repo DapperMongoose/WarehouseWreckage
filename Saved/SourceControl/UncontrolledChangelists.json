@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/home/bronin/Code/gamedevtv/WarehouseWreckage/WarehouseWreckage/Content/StarterContent/Architecture/Wall_500x500.uasset"
+			]
+		}
+	]
+}
