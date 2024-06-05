@@ -1,0 +1,39 @@
+Generating report for minidump
+
+Application version 5.4.1.0
+ ... built from changelist 33305029
+
+OS version Linux 6.9.2-arch1-1 (network name: StarSimian)
+Running 16 x86_64 processors (32 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-CoreUObject.so!FPackageName::LongPackageNameToFilename(FString const&, FString const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/Misc/PackageName.cpp:963]
+libUnrealEditor-UnrealEd.so!SaveAsImplementation(UWorld*, FString const&, bool, FString*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/FileHelpers.cpp:1159]
+libUnrealEditor-UnrealEd.so!FEditorFileUtils::SaveLevelAs(ULevel*, FString*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/FileHelpers.cpp:1517]
+libUnrealEditor-LevelEditor.so!FLevelEditorActionCallbacks::SaveCurrentAs() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/LevelEditor/Private/LevelEditorActions.cpp:486]
+libUnrealEditor-LevelEditor.so!FLevelEditorActionCallbacks::Save() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/LevelEditor/Private/LevelEditorActions.cpp:458]
+UnrealEditor!TBaseStaticDelegateInstance<void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:775]
+libUnrealEditor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:235]
+libUnrealEditor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:178]
+libUnrealEditor-UnrealEd.so!SEditorViewport::OnKeyDown(FGeometry const&, FKeyEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/SEditorViewport.cpp:143]
+libUnrealEditor-LevelEditor.so!SLevelViewport::OnKeyDown(FGeometry const&, FKeyEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/LevelEditor/Private/SLevelViewport.cpp:724]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4785]
+libUnrealEditor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4696]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:321]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5833]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:182]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x25c87)
+libc.so.6!__libc_start_main(+0x8b)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
