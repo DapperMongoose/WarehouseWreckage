@@ -1,0 +1,111 @@
+﻿Log file open, 06/04/24 20:52:15
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogConfig: No local boot hotfix file found at: [/home/bronin/.config/Epic/CrashReportClient/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: ExecutableName: CrashReportClientEditor
+LogInit: Build: ++UE5+Release-5.4-CL-33871570
+LogInit: Platform=Linux
+LogInit: MachineId=c068836dc6ae45938c80f55f3f005f03-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.2-33871570+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Arch Linux (6.9.2-arch1-1), CPU: AMD Ryzen 9 5950X 16-Core Processor, GPU: UnknownVendor
+LogInit: Compiled (64-bit): May 24 2024 01:55:10
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 16.0.6 (github.com/llvm/llvm-project 7cbf1a2591520c2491aa35339f227775f4d3adf6)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line:  -Abslog="/home/bronin/WarehouseWreckage/Saved/Logs/WarehouseWreckage-CRC.log" -NoAnalytics "/home/bronin/WarehouseWreckage/Saved/Crashes/crashinfo-WarehouseWreckage-pid-20087-C9D8CAEA16D648899DCBF43BEA2C58B9/"
+LogInit: Base Directory: /home/bronin/Linux_Unreal_Engine/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.06.05-01.52.15:414][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.06.05-01.52.15:414][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.06.05-01.52.15:414][  0]LogInit: Unix hardware info:
+[2024.06.05-01.52.15:414][  0]LogInit:  - we are the first instance of this executable
+[2024.06.05-01.52.15:414][  0]LogInit:  - this process' id (pid) is 20336, parent process' id (ppid) is 20087
+[2024.06.05-01.52.15:414][  0]LogInit:  - we are not running under debugger
+[2024.06.05-01.52.15:414][  0]LogInit:  - machine network name is 'StarSimian'
+[2024.06.05-01.52.15:414][  0]LogInit:  - user name is 'bronin' (bronin)
+[2024.06.05-01.52.15:414][  0]LogInit:  - we're logged in locally
+[2024.06.05-01.52.15:414][  0]LogInit:  - we're running with rendering
+[2024.06.05-01.52.15:414][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 5950X 16-Core Processor' (signature: 0xA20F10)
+[2024.06.05-01.52.15:414][  0]LogInit:  - Number of physical cores available for the process: 16
+[2024.06.05-01.52.15:414][  0]LogInit:  - Number of logical cores available for the process: 32
+[2024.06.05-01.52.15:414][  0]LogInit:  - GPU Brand Info: UnknownVendor
+[2024.06.05-01.52.15:414][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.06.05-01.52.15:414][  0]LogInit:  - This is an internal build.
+[2024.06.05-01.52.15:414][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.06.05-01.52.15:414][  0]LogInit: Unix-specific commandline switches:
+[2024.06.05-01.52.15:414][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.06.05-01.52.15:414][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.06.05-01.52.15:414][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.06.05-01.52.15:414][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.06.05-01.52.15:414][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.06.05-01.52.15:414][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.06.05-01.52.15:414][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.06.05-01.52.15:414][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.06.05-01.52.15:414][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.06.05-01.52.15:414][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.06.05-01.52.15:414][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.06.05-01.52.15:414][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.06.05-01.52.15:414][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.06.05-01.52.15:414][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2024.06.05-01.52.15:414][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64195 MB, 65736204 KB, 67313872896 bytes)
+[2024.06.05-01.52.15:414][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2024.06.05-01.52.15:414][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.06.05-01.52.15:414][  0]LogInit:  - PageSize 4096
+[2024.06.05-01.52.15:414][  0]LogInit:  - BinnedPageSize 65536
+[2024.06.05-01.52.15:416][  0]LogUObjectArray: 475 objects as part of root set at end of initial load.
+[2024.06.05-01.52.15:416][  0]LogUObjectArray: 0 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.06.05-01.52.15:416][  0]LogUObjectAllocator: 80424 out of 0 bytes used by permanent object pool.
+[2024.06.05-01.52.15:416][  0]LogUObjectArray: CloseDisregardForGC: 475/475 objects in disregard for GC pool
+[2024.06.05-01.52.15:416][  0]LogInit: Using OS detected language (en-US).
+[2024.06.05-01.52.15:416][  0]LogInit: Using OS detected locale (en-US).
+[2024.06.05-01.52.15:416][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.06.05-01.52.15:435][  0]LogInit: Using OS detected language (en-US).
+[2024.06.05-01.52.15:435][  0]LogInit: Using OS detected locale (en-US).
+[2024.06.05-01.52.15:435][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.06.05-01.52.15:435][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2024.06.05-01.52.15:435][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000025 seconds
+[2024.06.05-01.52.15:436][  0]CrashReportCoreLog: Display: Applying project settings from '/home/bronin/WarehouseWreckage/Saved/Crashes/crashinfo-WarehouseWreckage-pid-20087-C9D8CAEA16D648899DCBF43BEA2C58B9/CrashReportClient.ini'.
+[2024.06.05-01.52.15:436][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2024.06.05-01.52.15:436][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2024.06.05-01.52.15:436][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2024.06.05-01.52.15:436][  0]LogInit: Initializing SDL.
+[2024.06.05-01.52.15:500][  0]LogInit: Initialized SDL 2.24.0 revision:  (compiled against 2.24.0)
+[2024.06.05-01.52.15:500][  0]LogInit: Using SDL video driver 'x11'
+[2024.06.05-01.52.15:502][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.06.05-01.52.15:502][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.06.05-01.52.15:503][  0]LogSlate: Using FreeType 2.10.0
+[2024.06.05-01.52.15:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.06.05-01.52.15:503][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2024.06.05-01.52.15:600][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2024.06.05-01.52.15:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.06.05-01.52.15:614][  0]LogSlateOpenGL: Could not find file for Slate texture: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png'
+[2024.06.05-01.52.15:615][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.06.05-01.52.15:615][  0]LogSlateOpenGL: Could not find file for Slate texture: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png'
+[2024.06.05-01.52.15:615][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.06.05-01.52.15:615][  0]LogSlateOpenGL: Could not find file for Slate texture: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png'
+[2024.06.05-01.52.15:633][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.06.05-01.52.15:633][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.06.05-01.52.15:637][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2024.06.05-01.52.15:639][  0]LogSlate: Took 0.000039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.05-01.52.15:640][  0]LogSlate: Took 0.000028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.06.05-01.52.15:641][  0]LogSlate: Took 0.000028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.06.05-01.52.20:121][  0]LogSlate: Request Window 'WarehouseWreckage Crash Reporter' being destroyed
+[2024.06.05-01.52.20:121][  0]LogSlate: Window 'WarehouseWreckage Crash Reporter' being destroyed
+[2024.06.05-01.52.20:124][  0]LogCore: Engine exit requested (reason: OnRequestExit)
+[2024.06.05-01.52.20:125][  0]CrashReportCoreLog: Final state (Receiver) = Ready
+[2024.06.05-01.52.20:125][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2024.06.05-01.52.20:126][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.05-01.52.20:126][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2024.06.05-01.52.20:126][  0]LogExit: Preparing to exit.
+[2024.06.05-01.52.20:147][  0]LogExit: Object subsystem successfully closed.
+[2024.06.05-01.52.20:147][  0]LogPakFile: Destroying PakPlatformFile
+[2024.06.05-01.52.20:147][  0]LogExit: Exiting.
+[2024.06.05-01.52.20:147][  0]LogInit: Tearing down SDL.
+[2024.06.05-01.52.20:160][  0]Log file closed, 06/04/24 20:52:20
